@@ -1,0 +1,12 @@
+# Éditeurs / IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Logs & temporaires
+*.log
+node_modules/
