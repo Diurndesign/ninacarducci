@@ -5,8 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina Carducci - Photographe professionnelle a Bordeaux</title>
 	<meta name="description" content="Photographe professionnelle a Bordeaux. Prestations en shooting photo, retouches et albums personnalisés pour mariages, événements et portraits.">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="preload" as="style" href="./assets/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" media="print" onload="this.media='all'">
+<!--Pour les navigateurs sans JavaScript-->
+<noscript><link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css"></noscript>
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<!-- Préchargement de l'image LCP (1re image du carrousel) pour un affichage plus rapide -->
 	<link rel="preload" as="image" href="./assets/images/slider/mariage.avif" fetchpriority="high">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
